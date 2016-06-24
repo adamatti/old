@@ -1,0 +1,113 @@
+[
+	{
+		"title" : "Technical Lead",
+		"company" : {
+			"name": "ilegra",
+			"url" : "http://ilegra.com",
+			"img" : ""
+		},
+		"period" : {
+			"from" : {"year" : 2015, "month": "September"}
+		},
+		"description" : "Need to add a description"
+	},
+	{
+		"title" : "Software Development Advisor (Services)",
+		"company" : {
+			"name" : "Dell",
+			"url" : "http://dell.com"
+		},
+		"period" : {
+			"from" : {"year" : 2013, "month": "March"},
+			"to"   : {"year" : 2015, "month": "September"}
+		}		
+	},
+	{
+		"title" : "Software Developer (Services)",
+		"company" : {
+			"name" : "Dell",
+			"url" : "http://dell.com"
+		},
+		"period" : {
+			"from" : {"year" : 2008, "month": "April"},
+			"to"   : {"year" : 2013, "month": "February"}
+		}		
+	},
+	{
+		"title" : "Software Developer (DBI)",
+		"company" : {
+			"name" : "Dell",
+			"url" : "http://dell.com"
+		},
+		"period" : {
+			"from" : {"year" : 2007, "month": "March"},
+			"to"   : {"year" : 2008, "month": "May"}
+		}		
+	},
+	{
+		"title" : "Software Developer",
+		"company" : {
+			"name" : "Expresso Mercúrio",
+			"url" : "https://www.tnt.com"
+		},
+		"period" : {
+			"from" : {"year" : 2004, "month": "October"},
+			"to"   : {"year" : 2007, "month": "March"}
+		}
+	},
+	{
+		"title" : "Software Developer",
+		"company" : {
+			"name" : "Banrisul",
+			"url" : "http://www.banrisul.com.br/"
+		},
+		"period" : {
+			"from" : {"year" : 2002, "month": "June"},
+			"to"   : {"year" : 2004, "month": "September"}
+		}
+	},
+	{
+		"title" : "Programmer",
+		"company" : {
+			"name" : "Graphicline",
+			"url" : "http://www.Graphicline.com.br/"
+		},
+		"period" : {
+			"from" : {"year" : 2001, "month": "October"},
+			"to"   : {"year" : 2002, "month": "May"}
+		}
+	},
+	{
+		"title" : "Programmer",
+		"company" : {
+			"name" : "CTZ",
+			"url" : "http://www.CTZ.com.br/"
+		},
+		"period" : {
+			"from" : {"year" : 2001, "month": "April"},
+			"to"   : {"year" : 2001, "month": "October"}
+		}
+	},
+	{
+		"title" : "Programmer",
+		"company" : {
+			"name" : "Metroplan",
+			"url" : "http://www.metroplan.rs.gov.br/"
+		},
+		"period" : {
+			"from" : {"year" : 2001, "month": "February"},
+			"to"   : {"year" : 2001, "month": "April"}
+		}
+	},
+	{
+		"title" : "Tech Support",
+		"company" : {
+			"name" : "Gensa",
+			"url" : "http://gensa.cnec.br/"
+		},
+		"period" : {
+			"from" : {"year" : 2000, "month": "January"},
+			"to"   : {"year" : 2000, "month": "December"}
+		}
+	}
+]

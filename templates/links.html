@@ -1,0 +1,19 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th><a ng-click="reverse=!reverse;predicate='title'">Title</a></th>
+			<th><a ng-click="reverse=!reverse;predicate='category'">Category</a></th>
+			<th>Description</th>
+		</tr>
+		<tr>
+			<th><input type="text" ng-model="search.title" class="form-control"></th>
+			<th><input type="text" ng-model="search.category" class="form-control"></th>
+			<th><input type="text" ng-model="search.description" class="form-control"></th>	
+		</tr>
+	</thead>
+	<tr ng-repeat="link in links | filter:search | orderBy:predicate:reverse">
+		<td><a href="{{link.url}}" target="_blank">{{link.title}}</a></td>
+		<td>{{link.category}}</td>
+		<td>{{link.description}}</td>
+	</tr>
+</table>

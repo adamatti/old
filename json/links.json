@@ -1,0 +1,110 @@
+[
+    {
+        "category": "professional",
+        "description": "",
+        "title": "linkedin",
+        "url": "http://www.linkedin.com/in/adamatti"
+    },
+    {
+        "category": "professional and personal",
+        "description": "",
+        "title": "twitter",
+        "url": "https://www.twitter.com/adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "",
+        "title": "github",
+        "url": "https://github.com/adamatti"
+    },
+    {
+        "category": "personal",
+        "description": "",
+        "title": "flickr",
+        "url": "http://www.flickr.com/people/96225093@N08/"
+    },
+    {
+        "category": "personal",
+        "description": "",
+        "title": "instagram",
+        "url": "http://instagram.com/mpadamatti"
+    },
+    {
+        "category": "personal",
+        "description": "Is there someone still using it?",
+        "title": "foursquare",
+        "url": "http://www.foursquare.com/user/5779073"
+    },
+    {
+        "category": "personal",
+        "description": "Is there someone there?",
+        "title": "google+",
+        "url": "http://plus.google.com/105379434380521651798/"
+    },
+    {
+        "category": "personal",
+        "description": "",
+        "title": "facebook",
+        "url": "https://www.facebook.com/marcelo.adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "Technical blog. 'Tumblr? yea, bad choice'",
+        "title": "tumblr",
+        "url": "http://adamatti.tumblr.com/"
+    },
+    {
+        "category": "professional",
+        "description": "",
+        "title": "quora",
+        "url": "https://quora.com/Marcelo-Adamatti"
+    },
+    {
+        "category": "personal",
+        "description": "",
+        "title": "soundcloud",
+        "url": "https://soundcloud.com/marcelo-adamatti"
+    },
+    {
+        "category": "personal",
+        "description": "",
+        "title": "spotify",
+        "url": "https://open.spotify.com/user/adamatti"
+    },
+    {
+        "category": "professional and personal",
+        "description": "",
+        "title": "goodreads",
+        "url": "https://goodreads.com/user/show/47380325-marcelo-adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "",
+        "title": "quora",
+        "url": "https://quora.com/Marcelo-Adamatti"
+    },
+    {
+        "category": "personal",
+        "description": "old personal blog. Replaced by twitter",
+        "title": "blogspot",
+        "url": "http://adamatti.blogspot.com/"
+    },
+    {
+        "category" : "professional",
+        "description" : "pieces of code and small notes",
+        "title" : "gist",
+        "url" : "https://gist.github.com/adamatti"
+    },
+    {
+        "category" : "professional and personal",
+        "description" : "Resume in portuguese, single page",
+        "title" : "googlepage",
+        "url" : "http://adamatti.googlepages.com/"
+    },
+    {
+        "category" : "professional and personal",
+        "description" : "Personality test",
+        "title" : "TalenToday",
+        "url" : "https://www.talentoday.com/users/marcelo-adamatti/personality"
+    }
+]

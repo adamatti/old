@@ -1,0 +1,10 @@
+<div class="panel panel-default" ng-repeat="job in jobs | orderBy: 'job.period.from.year'">
+    <div class="panel-heading">
+      <b><a href="{{job.company.url}}">{{job.company.name}}</a> - {{job.title}}</b> -
+      {{job.period.from.month}} {{job.period.from.year}} - {{job.period.to ? job.period.to.month + ' ' + job.period.to.year : 'current'}}
+    </div>
+    <div class="panel-body">
+      Site: <a href="{{job.company.url}}">{{job.company.url}}</a><br/>
+      {{job.description}}
+    </div>
+  </div>
