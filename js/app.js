@@ -1,4 +1,4 @@
-angular.module('app', ['ngResource','ngRoute'])
+angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 .config(['$routeProvider',function($routeProvider) {
 	$routeProvider
 	.when('/home', { templateUrl: 'templates/home.html'})
@@ -9,6 +9,7 @@ angular.module('app', ['ngResource','ngRoute'])
 		.when('/skills', { templateUrl: 'templates/skills.html' })
 		.when('/awards', { templateUrl: 'templates/awards.html' })
 		.when('/education', { templateUrl: 'templates/education.html' })
+		.when('/certifications', { templateUrl: 'templates/certifications.html' })
   	.otherwise({redirectTo: '/home'});
 }])
 .factory('jobs', ['$resource',function($resource){
@@ -23,11 +24,18 @@ angular.module('app', ['ngResource','ngRoute'])
 .factory('awards', ['$resource',function($resource){
 	return $resource("/json/awards.json");
 }])
-//'$scope','jobs','links','projects',
-.controller('mainCtrl', function($scope,jobs,links,projects,awards) {
+.factory('certifications', ['$resource',function($resource){
+	return $resource("/json/certifications.json");
+}])
+.factory('educations', ['$resource',function($resource){
+	return $resource("/json/educations.json");
+}])
+.controller('mainCtrl', function($scope,jobs,links,projects,awards,certifications,educations) {
 	$scope.jobs = jobs.query();
 	$scope.links = links.query();
 	$scope.projects = projects.query();
 	$scope.awards = awards.query();
+	$scope.certifications = certifications.query();
+	$scope.educations = educations.query();
 })
 ;

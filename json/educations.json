@@ -1,0 +1,14 @@
+[
+  {
+    "school": "Facensa",
+    "title" : "Information Technology, Software, Project",
+    "interval" : {"start" : 2003, "end" : 2007},
+    "description": "Thesis: code generator tool for java using several frameworks (e.g. hibernate, iBatis, prevayler, jsf, laszlo, thinlet). <br/><a href=\"http://code.google.com/p/fumigant\">Project page</a>"
+  },
+  {
+    "school" :"Gensa",
+    "title" : "Technical in Informatic",
+    "interval" : {"start" : 2000, "end":2003},
+    "description" : "Focus on ASP pages and Oracle DB"
+  }
+]

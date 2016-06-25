@@ -1,0 +1,14 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th><a ng-click="reverse=!reverse;predicate='name'">Name</a></th>
+			<th><a ng-click="reverse=!reverse;predicate='authority'">Authority</a></th>
+			<th><a ng-click="reverse=!reverse;predicate='date.year'">Date</a></th>
+		</tr>
+	</thead>
+	<tr ng-repeat="row in certifications | filter:search | orderBy:predicate:reverse">
+		<td>{{row.name}}</td>
+    <td>{{row.authority}}</td>
+    <td>{{row.date.month}} - {{row.date.year}}</td>
+	</tr>
+</table>

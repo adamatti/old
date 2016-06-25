@@ -1,1 +1,4 @@
-education
+<div class="panel panel-default" ng-repeat="row in educations">
+  <div class="panel-heading">{{row.school}} - {{row.title}} - {{row.interval.start}} to {{row.interval.end}}</div>
+  <div class="panel-body" ng-bind-html="row.description"></div>
+</div>
