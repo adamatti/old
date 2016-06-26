@@ -5,6 +5,13 @@
     </div>
     <div class="panel-body">
       Site: <a href="{{job.company.url}}">{{job.company.url}}</a><br/>
-      {{job.description}}
+      {{job.description}}<br/>
+      <div ng-if="job.projects">
+        <b>Projects</b>:
+        <ul>
+          <li ng-repeat="project in job.projects">
+            {{project.title}} - {{project.description}}. <b>Keywords:</b> {{project.keywords.join(", ")}}</li>
+        </ul>
+      </div>
     </div>
   </div>

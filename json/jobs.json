@@ -1,18 +1,25 @@
 [
 	{
 		"title" : "Technical Lead",
+		"description" : "Tech Lead in a global app. Using Node/Groovy/Docker",
 		"company" : {
 			"name": "ilegra",
-			"url" : "http://ilegra.com",
-			"img" : ""
+			"url" : "http://ilegra.com"
 		},
 		"period" : {
 			"from" : {"year" : 2015, "month": "September"}
 		},
-		"description" : "Need to add a description"
+		"projects" : [
+			{
+				"title": "Feature Unlock",
+				"description":"Order placement/purchase system (orchestrator)",
+				"keywords":["node","groovy","apache camel","event sourcing","hypermedia API"]
+			}
+		]
 	},
 	{
 		"title" : "Software Development Advisor (Services)",
+		"description" : "Tech Lead in a global app. Using JavaEE",
 		"company" : {
 			"name" : "Dell",
 			"url" : "http://dell.com"
@@ -20,10 +27,18 @@
 		"period" : {
 			"from" : {"year" : 2013, "month": "March"},
 			"to"   : {"year" : 2015, "month": "September"}
-		}		
+		},
+		"projects" : [
+			{
+				"title": "Atlas",
+				"description" : "Mailer. Send emails based on rules/triggers/filters/templates/subscriptions",
+				"keywords":["JavaEE","Oracle","ESB"]
+			}
+		]
 	},
 	{
 		"title" : "Software Developer (Services)",
+		"description" : "JavaEE programmer, monitoring systems",
 		"company" : {
 			"name" : "Dell",
 			"url" : "http://dell.com"
@@ -31,10 +46,33 @@
 		"period" : {
 			"from" : {"year" : 2008, "month": "April"},
 			"to"   : {"year" : 2013, "month": "February"}
-		}		
+		},
+		"projects" : [
+			{
+				"title" : "DCCMT",
+				"description" : "Monitoring tool",
+				"keywords" : ["JavaEE","Groovy","Rule Engine"]
+			},
+			{
+				"title" : "CVM",
+				"description" : "Moniroting tool. Progress / Aurea / Software AG suite",
+				"keywords" : ["BPM", "Portal", "Complex Event Processing", "Report", "Monitoring"]
+			},
+			{
+				"title" : "Pega",
+				"description" : "Monitoring tool. Pega suite",
+				"keywords" : ["BPM"]
+			},
+			{
+				"title":"DCCMT reports",
+				"description" : "BI / Reports",
+				"keywords" : ["Big Data","Splunk"]
+			}
+		]
 	},
 	{
 		"title" : "Software Developer (DBI)",
+		"description" : "JavaEE programmer, manufacturing systems",
 		"company" : {
 			"name" : "Dell",
 			"url" : "http://dell.com"
@@ -42,10 +80,23 @@
 		"period" : {
 			"from" : {"year" : 2007, "month": "March"},
 			"to"   : {"year" : 2008, "month": "May"}
-		}		
+		},
+		"projects" : [
+			{
+				"title": "Latte",
+				"description" : "Licensing management",
+				"keywords" : ["JavaEE","Struts"]
+			},
+			{
+				"title" : "GFX",
+				"description" : "Virtual Factory",
+				"keywords" : ["JavaEE","Orchestrator"]
+			}
+		]
 	},
 	{
 		"title" : "Software Developer",
+		"description" : "Java/JME/SuperWaba programmer",
 		"company" : {
 			"name" : "Expresso Mercúrio",
 			"url" : "https://www.tnt.com"
@@ -53,10 +104,28 @@
 		"period" : {
 			"from" : {"year" : 2004, "month": "October"},
 			"to"   : {"year" : 2007, "month": "March"}
-		}
+		},
+		"projects" : [
+			{
+				"title" : "VOL",
+				"description" : "JME system for drivers",
+				"keywords" : ["Java","JME"]
+			},
+			{
+				"title" : "SuperWaba",
+				"description" : "System for stock management",
+				"keywords" : ["SuperWaba"]
+			},
+			{
+				"title" : "Others",
+				"description" : "Small systems for clients",
+				"keywords" : ["Java","ASP"]
+			}
+		]
 	},
 	{
 		"title" : "Software Developer",
+		"description" : "ASP / VB6 programmer. Provide support to other devs",
 		"company" : {
 			"name" : "Banrisul",
 			"url" : "http://www.banrisul.com.br/"
@@ -68,6 +137,7 @@
 	},
 	{
 		"title" : "Programmer",
+		"description" : "ASP programmer, multiple systems",
 		"company" : {
 			"name" : "Graphicline",
 			"url" : "http://www.Graphicline.com.br/"
@@ -79,6 +149,7 @@
 	},
 	{
 		"title" : "Programmer",
+		"description" : "ASP programmer, financial systems",
 		"company" : {
 			"name" : "CTZ",
 			"url" : "http://www.CTZ.com.br/"
@@ -90,6 +161,7 @@
 	},
 	{
 		"title" : "Programmer",
+		"description" : "ASP programmer, small systems",
 		"company" : {
 			"name" : "Metroplan",
 			"url" : "http://www.metroplan.rs.gov.br/"
@@ -101,6 +173,7 @@
 	},
 	{
 		"title" : "Tech Support",
+		"description" : "Hardware support",
 		"company" : {
 			"name" : "Gensa",
 			"url" : "http://gensa.cnec.br/"
