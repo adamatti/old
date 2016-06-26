@@ -78,12 +78,6 @@
         "url": "https://goodreads.com/user/show/47380325-marcelo-adamatti"
     },
     {
-        "category": "professional",
-        "description": "",
-        "title": "quora",
-        "url": "https://quora.com/Marcelo-Adamatti"
-    },
-    {
         "category": "personal",
         "description": "old personal blog. Replaced by twitter",
         "title": "blogspot",
@@ -106,5 +100,11 @@
         "description" : "Personality test",
         "title" : "TalenToday",
         "url" : "https://www.talentoday.com/users/marcelo-adamatti/personality"
+    },
+    {
+        "category" : "professional",
+        "description" : "Decks used on events, meetus, talks",
+        "title" : "Slides",
+        "url" : "http://slides.com/adamatti"
     }
 ]

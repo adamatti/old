@@ -1,1 +1,15 @@
-projects
+Pet projects are listed here, the enterprised ones are listed <a href="#jobs-seq">here</a> (with the job experience)<br/>
+I also have pet projects on <a href="https://github.com/adamatti">github</a>
+
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th><a ng-click="reverse=!reverse;predicate='title'">Title</a></th>
+			<th>Description</th>
+		</tr>
+	</thead>
+	<tr ng-repeat="row in projects | filter:search | orderBy:predicate:reverse">
+		<td><a href="{{row.url}}">{{row.title}}</a></td>
+    <td>{{row.description}}</td>
+	</tr>
+</table>
