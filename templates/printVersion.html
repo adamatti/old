@@ -1,0 +1,78 @@
+<div ng-init="printVersion=true"/>
+<h1>Marcelo Adamatti - <a href="mailto:adamatti@gmail.com">adamatti@gmail.com</a></h1>
+
+<h4>Summary</h4>
+<ul>
+<li>Technical Lead, strong background with Java/Groovy, working with Groovy/Node/Docker</li>
+<li>Birthday: 07/28/1982</li>
+<li>Marital Status: Married</li>
+<li>Live on Cachoeirinha/RS (Brazil)</li>
+<li>Personality: <a href="https://www.talentoday.com/users/marcelo-adamatti/personality">https://www.talentoday.com/users/marcelo-adamatti/personality</a></li>
+</ul>
+
+<hr/>
+<h4>Experience</h4>
+<ul>
+  <li ng-repeat="job in jobs">
+    <b>{{job.company.name}}</b> - {{job.title}}</b> - {{job.period.from.month}} {{job.period.from.year}} - {{job.period.to ? job.period.to.month + ' ' + job.period.to.year : 'current'}}<br/>
+    Site: <a href="{{job.company.url}}">{{job.company.url}}</a><br/>
+    {{job.description}}<br/>
+    <div ng-if="job.projects">
+      <b>Projects</b>:
+      <ul>
+        <li ng-repeat="project in job.projects">
+          {{project.title}} - {{project.description}}. <b>Keywords:</b> {{project.keywords.join(", ")}}</li>
+      </ul>
+    </div>
+  </li>
+</ul>
+
+<hr/>
+<h4>Projects</h4>
+<ul>
+  <li ng-repeat="row in projects">
+    {{row.title}} - {{row.description}}
+  </li>
+</ul>
+
+<hr/>
+<h4>Languages</h4>
+<ul>
+<li>Portuguese - Native Language</li>
+<li>English - Professional working proficiency</li>
+</ul>
+
+<hr/>
+<h4>Certifications</h4>
+<ul>
+<li ng-repeat="row in certifications">
+{{row.name}} - {{row.authority}} - {{row.date.month}} - {{row.date.year}}
+</li>
+</ul>
+
+<hr/>
+<h4>Skills</h4>
+<div ng-include="'/templates/skills.html'"></div>
+
+<hr/>
+<h4>Education</h4>
+<ul>
+<li ng-repeat="row in educations">
+  <b>{{row.school}}</b> - {{row.title}} - {{row.interval.start}} to {{row.interval.end}}<br/>
+  <div ng-bind-html="row.description"></div>
+</li>
+</ul>
+
+<hr/>
+<h4>Awards</h4>
+<ul>
+  <li ng-repeat="row in awards">{{row.title}} - {{row.issuer}} - {{row.date.month}} - {{row.date.year}}</li>
+</ul>
+
+<hr/>
+<h4>Links</h4>
+<ul>
+  <li ng-repeat="row in links | filter: {showForPrint:true} | orderBy: 'title'">
+    {{row.title}}: <a href="{{row.url}}">{{row.url}}</a>
+  </li>
+</ul>
