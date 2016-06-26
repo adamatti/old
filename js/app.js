@@ -30,12 +30,16 @@ angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 .factory('educations', ['$resource',function($resource){
 	return $resource("/json/educations.json");
 }])
-.controller('mainCtrl', function($scope,jobs,links,projects,awards,certifications,educations) {
+.factory('skills', ['$resource',function($resource){
+	return $resource("/json/skills.json");
+}])
+.controller('mainCtrl', function($scope,jobs,links,projects,awards,certifications,educations,skills) {
 	$scope.jobs = jobs.query();
 	$scope.links = links.query();
 	$scope.projects = projects.query();
 	$scope.awards = awards.query();
 	$scope.certifications = certifications.query();
 	$scope.educations = educations.query();
+	$scope.skills = skills.query();
 })
 ;

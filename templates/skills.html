@@ -1,1 +1,5 @@
-skills here
+The most important items are listed here, there are a lot of other things that I used in one or more projects. <br/><br/>
+<input type="text" ng-model="search" class="form-control" placeholder="Search">
+<div ng-repeat="category in skills | filter: search">
+<b>{{category.name}}: </b> {{category.items.join(', ')}}<br/>
+</div>

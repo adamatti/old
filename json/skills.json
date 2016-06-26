@@ -1,3 +1,30 @@
-{
-  
-}
+[
+    {
+      "name" : "Languages",
+      "items" : ["Java", "JavaEE", "Groovy","Node.js (Javascript)"]
+    },
+    {
+      "name" : "Libs and Frameworks",
+      "items" : ["Hibernate","Spring","Grails","Express", "Apache Camel"]
+    },
+    {
+      "name" : "Learning Languages",
+      "items" : ["Elixir","Scala","Clojure"]
+    },
+    {
+      "name" : "Learning things",
+      "items" : ["Event Sourcing", "CQRS", "Kafka"]
+    },
+    {
+      "name" : "Databases",
+      "items" : ["Oracle DB", "MongoDB","Redis"]
+    },
+    {
+      "name" : "Tools",
+      "items" : ["Eclipse", "Intellij", "Docker", "Docker-Compose","Vagrant"]
+    },
+    {
+      "name" : "Soft Skills",
+      "items" : ["Leadership","Accountability", "Customer in mind", "Respect to authority"]
+    }
+]
