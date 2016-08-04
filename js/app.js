@@ -1,3 +1,4 @@
+//FIXME this file need to be improved. There are a lot of copy/paste
 angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 .config(['$routeProvider',function($routeProvider) {
 	$routeProvider
@@ -10,6 +11,7 @@ angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 		.when('/awards', { templateUrl: 'templates/awards.html' })
 		.when('/education', { templateUrl: 'templates/education.html' })
 		.when('/certifications', { templateUrl: 'templates/certifications.html' })
+		.when('/events', { templateUrl: 'templates/events.html' })
   	.otherwise({redirectTo: '/home'});
 }])
 .factory('jobs', ['$resource',function($resource){
@@ -33,7 +35,10 @@ angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 .factory('skills', ['$resource',function($resource){
 	return $resource("/json/skills.json");
 }])
-.controller('mainCtrl', function($scope,jobs,links,projects,awards,certifications,educations,skills) {
+.factory('events', ['$resource',function($resource){
+	return $resource("/json/events.json");
+}])
+.controller('mainCtrl', function($scope,jobs,links,projects,awards,certifications,educations,skills,events) {
 	$scope.jobs = jobs.query();
 	$scope.links = links.query();
 	$scope.projects = projects.query();
@@ -41,5 +46,6 @@ angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 	$scope.certifications = certifications.query();
 	$scope.educations = educations.query();
 	$scope.skills = skills.query();
+	$scope.events = events.query();
 })
 ;

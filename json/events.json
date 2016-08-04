@@ -1,0 +1,40 @@
+[
+  {
+    "name": "TDC Floripa",
+    "talk": "Apache Camel",
+    "date": "2016-05-11",
+    "links" : {
+        "description" : "http://www.thedevelopersconference.com.br/tdc/2016/florianopolis/trilha-java-ee",
+        "slides" : "http://slides.com/adamatti/camel"
+      }
+  },
+  {
+    "name" : "Node POA Meetup",
+    "talk" : "Event Sourcing",
+    "date" : "2016-07-12",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/eventsourcing",
+      "recording" : "https://www.youtube.com/watch?v=ATWEXZkYgek",
+      "github" : "https://github.com/node-poa/2-meetup",
+      "meetup" : "https://www.meetup.com/pt-BR/Node-js-Porto-Alegre-Meetup"
+    }
+  },
+  {
+    "name" : "DevOps Days",
+    "talk" : "Don't hate your tests",
+    "date" : "2016-07-09",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/devopsday",
+      "recording" : "https://www.youtube.com/watch?v=1wZGSSaDMDo",
+      "page" : "http://www.devopsdays.org/events/2016-portoalegre/inicio/"
+    }
+  },
+  {
+    "name" : "RSJUG - Meetup",
+    "talk" : "Grails - the search is over",
+    "date" : "2016-08-03",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/grails"
+    }
+  }
+]

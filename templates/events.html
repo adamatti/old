@@ -1,0 +1,21 @@
+<table class="table table-striped">
+	<thead>
+		<tr>
+			<th><a ng-click="reverse=!reverse;predicate='name'">Name</a></th>
+			<th><a ng-click="reverse=!reverse;predicate='talk'">Talk</a></th>
+			<th><a ng-click="reverse=!reverse;predicate='date'">Date</a></th>
+      <th>Links</a></th>
+		</tr>
+	</thead>
+	<tr ng-repeat="row in events | filter:search | orderBy:predicate:reverse">
+		<td>{{row.name}}</td>
+    <td>{{row.talk}}</td>
+    <td>{{row.date}}</td>
+    <td>[
+      <any ng-repeat="(k,v) in row.links">
+        <any ng-if="!$first"> | </any>
+        <a href="{{v}}" target="_blank">{{k}}</a>
+      </any> ]
+    </td>
+	</tr>
+</table>
