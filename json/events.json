@@ -1,6 +1,6 @@
 [
   {
-    "name": "TDC Floripa",
+    "name": "TDC Floripa - Java",
     "talk": "Apache Camel",
     "date": "2016-05-11",
     "links" : {
@@ -35,6 +35,34 @@
     "date" : "2016-08-03",
     "links" : {
       "slides" : "http://slides.com/adamatti/grails"
+    }
+  },
+  {
+    "name" : "TDC POA - tests",
+    "talk" : "Don't hate your tests",
+    "date" : "2016-10-05",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/tdc_poa_2016_nao_dtest",
+      "tweet" : "https://twitter.com/eliasnogueira/status/783682576124870656"
+    }
+  },
+  {
+    "name" : "TDC POA - javascript",
+    "talk" : "Event sourcing",
+    "date" : "2016-10-05",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/eventsourcing",
+      "tweet" : "https://twitter.com/alinedecampos/status/783759425106505728"
+    }
+  },
+  {
+    "name" : "TDC POA - architecture",
+    "talk" : "Event sourcing",
+    "date" : "2016-10-07",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/tdc_poa_2016_event_sourcing_arch",
+      "tweet1" : "https://twitter.com/__cure/status/784461126474067969",
+      "tweet2" : "https://twitter.com/toff63/status/784460801511985152"
     }
   }
 ]
