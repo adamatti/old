@@ -43,7 +43,8 @@
     "date" : "2016-10-05",
     "links" : {
       "slides" : "http://slides.com/adamatti/tdc_poa_2016_nao_dtest",
-      "tweet" : "https://twitter.com/eliasnogueira/status/783682576124870656"
+      "tweet" : "https://twitter.com/eliasnogueira/status/783682576124870656",
+      "page" : "http://www.thedevelopersconference.com.br/tdc/2016/portoalegre/trilha-testes"
     }
   },
   {
@@ -52,7 +53,8 @@
     "date" : "2016-10-05",
     "links" : {
       "slides" : "http://slides.com/adamatti/eventsourcing",
-      "tweet" : "https://twitter.com/alinedecampos/status/783759425106505728"
+      "tweet" : "https://twitter.com/alinedecampos/status/783759425106505728",
+      "page" : "http://www.thedevelopersconference.com.br/tdc/2016/portoalegre/trilha-javascript"
     }
   },
   {
@@ -62,7 +64,8 @@
     "links" : {
       "slides" : "http://slides.com/adamatti/tdc_poa_2016_event_sourcing_arch",
       "tweet1" : "https://twitter.com/__cure/status/784461126474067969",
-      "tweet2" : "https://twitter.com/toff63/status/784460801511985152"
+      "tweet2" : "https://twitter.com/toff63/status/784460801511985152",
+      "page" : "http://www.thedevelopersconference.com.br/tdc/2016/portoalegre/trilha-arquitetura"
     }
   }
 ]
