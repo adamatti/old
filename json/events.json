@@ -1,5 +1,14 @@
 [
   {
+    "name": "Fisl 7",
+    "talk": "FUMIGANT - Geração de código utilizando java e software livre",
+    "date" :"2006-04-20",
+    "links": {
+      "agenda" : "https://web.archive.org/web/20070608003049/http://fisl.softwarelivre.org/7.0/papers/pub/",
+      "description" : "https://web.archive.org/web/20070608010756/http://fisl.softwarelivre.org/7.0/papers/pub/programacao/334"
+    }
+  },
+  {
     "name": "TDC Floripa - Java",
     "talk": "Apache Camel",
     "date": "2016-05-11",
