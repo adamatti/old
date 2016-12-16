@@ -1,5 +1,23 @@
 [
 	{
+		"title": "Software Development Sr Advisor (DFS)",
+		"description" : "Tech Lead",
+		"company":{
+			"name":"Dell",
+			"url" : "http://dell.com"
+		},
+		"period" : {
+			"from" : {"year" : 2016, "month": "December"}
+		},
+		"projects" : [
+			{
+				"title": "Customer Portal",
+				"description":"An Internet Banking",
+				"keywords" : ["salesforce"]
+			}
+		]
+	},
+	{
 		"title" : "Technical Lead",
 		"description" : "Tech Lead in a global app. Using Node/Groovy/Docker",
 		"company" : {
@@ -7,7 +25,8 @@
 			"url" : "http://ilegra.com"
 		},
 		"period" : {
-			"from" : {"year" : 2015, "month": "September"}
+			"from" : {"year" : 2015, "month": "September"},
+			"to" :   {"year" : 2016, "month": "December"}
 		},
 		"projects" : [
 			{
