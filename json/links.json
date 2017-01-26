@@ -110,5 +110,17 @@
         "description" : "Decks used on events, meetus, talks",
         "title" : "Slides",
         "url" : "http://slides.com/adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "StackOverflow CV",
+        "title" : "StackOverflow",
+        "url" : "http://stackoverflow.com/story/adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "A nice way to see Github projects",
+        "title": "GitShowcase",
+        "url" : "http://www.gitshowcase.com/adamatti"    
     }
 ]
