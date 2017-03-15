@@ -76,5 +76,16 @@
       "tweet2" : "https://twitter.com/toff63/status/784460801511985152",
       "page" : "http://www.thedevelopersconference.com.br/tdc/2016/portoalegre/trilha-arquitetura"
     }
+  },
+  {
+    "name" : "Node POA Meetup",
+    "talk" : "Why Node",
+    "date" : "2017-03-14",
+    "links" : {
+      "slides" : "http://slides.com/adamatti/whynode",
+      "pptx" : "https://drive.google.com/file/d/0B2LXDhHXNPKxWmlFSUR4aVMyRkE/view?usp=drivesdk",
+      "github" : "https://github.com/node-poa/Meetups/blob/master/meetups/04.md",
+      "meetup" : "https://www.meetup.com/pt-BR/Node-js-Porto-Alegre-Meetup"
+    }
   }
 ]
