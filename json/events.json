@@ -89,5 +89,15 @@
       "photos" : "https://goo.gl/photos/QG28BpEp2ec7mnsa9",
       "recording" : "https://www.youtube.com/watch?v=ZKPBtsoaA-4"
     }
+  },
+  {
+    "name":"RSJUG",
+    "talk":"Spock",
+    "date" : "2017-03-30",
+    "links" : {
+      "repo" : "https://github.com/adamatti/LearnSpock",
+      "post1" : "https://www.facebook.com/groups/rsjug/permalink/1024294127700692/",
+      "post2" : "https://www.facebook.com/groups/rsjug/permalink/1023997577730347/"
+    }
   }
 ]
