@@ -1,5 +1,16 @@
 [
 	{
+		"title" : "Senior Software Engineer",
+		"description" : "Working with bigdata, microservice, data science and a lot of cool stuffs",
+		"company" : {
+			"name" : "Zenvia",
+			"url" : "http://www.zenvia.com"
+		},
+		"period" : {
+			"from" : {"year" : 2017, "month": "April", "day":10}
+		}
+	},
+	{
 		"title": "Software Development Sr Advisor (DFS)",
 		"description" : "Tech Lead",
 		"company":{
@@ -7,7 +18,8 @@
 			"url" : "https://www.delltechnologies.com"
 		},
 		"period" : {
-			"from" : {"year" : 2016, "month": "December"}
+			"from" : {"year" : 2016, "month": "December", "day":11},
+			"to"   : {"year" : 2017, "month": "April", "day":4}
 		},
 		"projects" : [
 			{
@@ -25,8 +37,8 @@
 			"url" : "http://ilegra.com"
 		},
 		"period" : {
-			"from" : {"year" : 2015, "month": "September"},
-			"to" :   {"year" : 2016, "month": "December"}
+			"from" : {"year" : 2015, "month": "September", "day":16},
+			"to" :   {"year" : 2016, "month": "December", "day":9}
 		},
 		"projects" : [
 			{
@@ -44,8 +56,8 @@
 			"url" : "http://dell.com"
 		},
 		"period" : {
-			"from" : {"year" : 2013, "month": "March"},
-			"to"   : {"year" : 2015, "month": "September"}
+			"from" : {"year" : 2013, "month": "March", "day":8},
+			"to"   : {"year" : 2015, "month": "September", "day":11}
 		},
 		"projects" : [
 			{
