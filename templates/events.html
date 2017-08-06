@@ -8,10 +8,10 @@
 		</tr>
 	</thead>
 	<tr ng-repeat="row in events | filter:search | orderBy:predicate:reverse">
-		<td>{{row.name}}</td>
+		<td nowrap="nowrap">{{row.name}}</td>
     <td>{{row.talk}}</td>
-    <td>{{row.date}}</td>
-    <td>[
+    <td nowrap="nowrap">{{row.date}}</td>
+    <td nowrap="nowrap">[
       <any ng-repeat="(k,v) in row.links">
         <any ng-if="!$first"> | </any>
         <a href="{{v}}" target="_blank">{{k}}</a>

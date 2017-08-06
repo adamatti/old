@@ -99,5 +99,27 @@
       "post1" : "https://www.facebook.com/groups/rsjug/permalink/1024294127700692/",
       "post2" : "https://www.facebook.com/groups/rsjug/permalink/1023997577730347/"
     }
+  },
+  {
+    "name":"Docker / Microservices meetup",
+    "talk":"CI e CD",
+    "date":"2017-07-26",
+    "links":{
+      "slides":"http://slides.com/adamatti/ci_cd",
+      "post":"https://adamatti.github.io/blog/devops/2017/07/27/ci-cd.html",
+      "repo":"https://github.com/adamatti/SampleTalkCICD",
+      "event":"https://www.meetup.com/pt-BR/Docker-Porto-Alegre/events/241362067/"
+    }
+  },
+  {
+    "name":"DevopsDay POA",
+    "talk":"CI e CD",
+    "date":"2017-08-05",
+    "links":{
+      "slides":"https://slides.com/adamatti/cicd-devopsdaypoa",
+      "post":"https://adamatti.github.io/blog/devops/2017/08/05/devopsdaypoa.html",
+      "repo":"https://github.com/adamatti/SampleTalkCICD",
+      "event":"http://poa.devopsdays.com.br/"
+    }
   }
 ]
