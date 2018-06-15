@@ -121,5 +121,15 @@
       "repo":"https://github.com/adamatti/SampleTalkCICD",
       "event":"http://poa.devopsdays.com.br/"
     }
+  },
+  {
+    "name":"Dev.Up!",
+    "talk":"CI e CD",
+    "date": "2018-06-14",
+    "links": {
+      "slides" : "https://slides.com/adamatti/cicd_devup",
+      "ppt" : "https://docs.google.com/presentation/d/11-u2nXgX98-p3p6CAnDdfmBLkkLleFKrrR2_s4mAR-4/edit?usp=sharing",
+      "event": "https://www.meetup.com/pt-BR/dev-up/events/251245251/"
+    }
   }
 ]
