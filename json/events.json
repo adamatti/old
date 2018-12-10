@@ -131,5 +131,49 @@
       "ppt" : "https://docs.google.com/presentation/d/11-u2nXgX98-p3p6CAnDdfmBLkkLleFKrrR2_s4mAR-4/edit?usp=sharing",
       "event": "https://www.meetup.com/pt-BR/dev-up/events/251245251/"
     }
+  },
+  {
+    "name": "Meetup microservices",
+    "talk": "Are you ready to Go (lang)",
+    "date": "2018-12-04",
+    "links": {
+      "repo": "https://github.com/adamatti/sandboxgo",
+      "slides": "https://slides.com/adamatti/golang",
+      "tweet": "https://twitter.com/morvanabonin/status/1070071826246705152",
+      "ppt": "https://docs.google.com/presentation/d/1Xr9BCEb1J0ijnQBwXWhT_k8wjOo0N0soh3pEJ8Gj6GY/edit?usp=sharing",
+      "event": "https://www.meetup.com/pt-BR/Microservices-Porto-Alegre/events/256538257/"
+    }
+  },
+  {
+    "name":"TDC POA - java architecture",
+    "talk": "Criando microservicos com micronaut",
+    "date": "2018-12-06",
+    "links":{
+      "slides": "https://slides.com/adamatti/tdc-2018-micronaut",
+      "ppt": "https://docs.google.com/presentation/d/1IA7Zn2BKfOVoKEnLBzhByULNQJn-Y8npHfEQCRUHD1k/edit?usp=sharing",
+      "event": "http://www.thedevelopersconference.com.br/tdc/2018/portoalegre/trilha-arquitetura-java"
+    }
+  },
+  {
+    "name":"TDC POA - java",
+    "talk": "Criando microservicos com micronaut",
+    "date": "2018-12-08",
+    "links":{
+      "slides": "https://slides.com/adamatti/tdc-2018-micronaut",
+      "photo": "https://www.facebook.com/TheDevelopersConference/photos/a.2088426311217736/2088429377884096",
+      "ppt": "https://docs.google.com/presentation/d/1IA7Zn2BKfOVoKEnLBzhByULNQJn-Y8npHfEQCRUHD1k/edit?usp=sharing",
+      "event": "http://www.thedevelopersconference.com.br/tdc/2018/portoalegre/trilha-java"
+    }
+  },
+  {
+    "name":"TDC POA - extreme programming",
+    "talk": "Usando TDD a nível de API",
+    "date": "2018-12-06",
+    "links":{
+      "slides": "https://slides.com/adamatti/tdc-2018-tdd",
+      "event": "http://www.thedevelopersconference.com.br/tdc/2018/portoalegre/trilha-extreme-programming",
+      "tweet": "https://twitter.com/MihQueiroz/status/1070758643686146048",
+      "ppt" : "https://docs.google.com/presentation/d/1oX2YoBGZ-GbUaAenVwyAE9wCTeuCWhqmIEgvks3wBZ8/edit?usp=sharing"
+    }
   }
 ]
