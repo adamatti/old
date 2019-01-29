@@ -175,5 +175,16 @@
       "tweet": "https://twitter.com/MihQueiroz/status/1070758643686146048",
       "ppt" : "https://docs.google.com/presentation/d/1oX2YoBGZ-GbUaAenVwyAE9wCTeuCWhqmIEgvks3wBZ8/edit?usp=sharing"
     }
+  },
+  {
+    "name": "Meetup GoLang",
+    "talk": "Are you ready to Go (lang)",
+    "date": "2019-01-28",
+    "links": {
+      "slides": "https://slides.com/adamatti/golang-v2",
+      "event":"https://www.meetup.com/pt-BR/Porto-Alegre-GOlang-Meetup/events/258110579/",
+      "ppt" : "https://docs.google.com/presentation/d/1e75t77kxY2RWbxMLSh33tO0FR-H3eHuQLDPJxcqC0qA/edit?usp=sharing",
+      "tweet": "https://twitter.com/adamatti/status/1090062346066817024"
+    }
   }
 ]
