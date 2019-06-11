@@ -1,13 +1,25 @@
 [
 	{
+		"title" : "Software Engineer / Tech Lead",
+		"description": "Logistics systems",
+		"company" : {
+			"name" : "iFood",
+			"url" : "https://www.ifood.com.br"
+		},
+		"period" : {
+			"from" : {"year" : 2019, "month": "April", "day":1}
+		}
+	},
+	{
 		"title" : "Senior Software Engineer",
-		"description" : "Working with bigdata, microservice, data science and a lot of cool stuffs",
+		"description" : "Working with bigdata, microservice, data science building chatbots",
 		"company" : {
 			"name" : "Zenvia",
 			"url" : "http://www.zenvia.com"
 		},
 		"period" : {
-			"from" : {"year" : 2017, "month": "April", "day":10}
+			"from" : {"year" : 2017, "month": "April", "day":10},
+			"to" : {"year" : 2019, "month": "March", "day":29}
 		}
 	},
 	{

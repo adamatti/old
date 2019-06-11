@@ -6,14 +6,14 @@
 <li>Technical Lead, strong background with Java/Groovy, working with Groovy/Node/Docker</li>
 <li>Birthday: 07/28/1982</li>
 <li>Marital Status: Married</li>
-<li>Living at Cachoeirinha/RS (Brazil)</li>
+<li>Living at Canoas/RS (Brazil)</li>
 <li>Personality: <a href="https://www.talentoday.com/users/marcelo-adamatti/personality">https://www.talentoday.com/users/marcelo-adamatti/personality</a></li>
 </ul>
 
 <hr/>
 <h4>Experience</h4>
 <ul>
-  <li ng-repeat="job in jobs">
+  <li ng-repeat="job in jobs" ng-if="job.period.from.year >= 2007">
     <b>{{job.company.name}}</b> - {{job.title}}</b> - {{job.period.from.month}} {{job.period.from.year}} - {{job.period.to ? job.period.to.month + ' ' + job.period.to.year : 'current'}}<br/>
     Site: <a href="{{job.company.url}}">{{job.company.url}}</a><br/>
     {{job.description}}<br/>
@@ -26,7 +26,7 @@
     </div>
   </li>
 </ul>
-
+<!--
 <hr/>
 <h4>Projects</h4>
 <ul>
@@ -34,7 +34,7 @@
     {{row.title}} - {{row.description}}
   </li>
 </ul>
-
+-->
 <hr/>
 <h4>Languages</h4>
 <ul>

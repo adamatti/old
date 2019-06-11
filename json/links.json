@@ -128,5 +128,11 @@
         "description": "Another way to see github data",
         "title": "Sourcerer",
         "url": "https://sourcerer.io/adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "TDC profile",
+        "title": "TDC",
+        "url": "http://www.thedevelopersconference.com.br/palestrante/MarceloAdamatti"
     }
 ]
