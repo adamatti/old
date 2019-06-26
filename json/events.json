@@ -186,5 +186,15 @@
       "ppt" : "https://docs.google.com/presentation/d/1e75t77kxY2RWbxMLSh33tO0FR-H3eHuQLDPJxcqC0qA/edit?usp=sharing",
       "tweet": "https://twitter.com/adamatti/status/1090062346066817024"
     }
+  },
+  {
+    "name": "Meetup RSJUG / Movile",
+    "talk": "Criando Microserviços com Micronaut",
+    "date": "2019-06-25",
+    "links" : {
+      "slides" : "https://gist.github.com/adamatti/020a8fa96760c88a5adcb2b528c1ad35",
+      "event": "http://www.sucesurs.org.br/evento/rsjug-movile-promovem-evento-com-palestras-sobre-java-e-microservices/",
+      "ppt": "https://docs.google.com/presentation/d/1oDnMXJIVBPndbHmM_gPA4_Q8u05OS7aMYf11t8XdVOI/edit?usp=sharing" 
+    }
   }
 ]

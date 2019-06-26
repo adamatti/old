@@ -47,5 +47,8 @@ angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 	$scope.educations = educations.query();
 	$scope.skills = skills.query();
 	$scope.events = events.query();
+
+	$scope.predicate = 'date';
+	$scope.reverse = true;
 })
 ;
