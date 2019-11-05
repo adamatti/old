@@ -197,5 +197,34 @@
       "ppt": "https://docs.google.com/presentation/d/1oDnMXJIVBPndbHmM_gPA4_Q8u05OS7aMYf11t8XdVOI/edit?usp=sharing",
       "photo": "https://flic.kr/s/aHsmEwZGy3"
     }
+  },
+  {
+    "name":"Meetup Microservices",
+    "talk": "Interagindo com APIs",
+    "date" :"2019-10-30",
+    "links" : {
+      "github":"https://github.com/adamatti/talk_microservices_apis",
+      "event": "https://www.meetup.com/pt-BR/Microservices-Porto-Alegre/events/265726501/",
+      "slides": "https://slides.com/adamatti/talk_microservices_apis",
+      "ppt": "https://docs.google.com/presentation/d/1IMTzCLEg4UVHSSsHHT7knsmU7XVj5iUcMqk4Lz0gcJM/edit?usp=sharing"      
+    }
+  },
+  {
+    "name":"TDC 2018 Porto Alegre",
+    "talk": "Coordenação trilha Microservices",
+    "date": "2018-12-07",
+    "links": {
+      "track1": "https://thedevconf.com/tdc/2018/portoalegre/trilha-microservices",
+      "track2": "https://thedevconf.com/tdc/2018/portoalegre/trilha-microservices2"
+    } 
+  },
+  {
+    "name":"TDC 2019 Porto Alegre",
+    "talk": "Coordenação trilha Microservices",
+    "date": "2019-11-29",
+    "links": {
+      "track1": "https://thedevconf.com/tdc/2019/portoalegre/trilha-microservices",
+      "track2": "https://thedevconf.com/tdc/2019/portoalegre/trilha-microservices-2"
+    } 
   }
 ]
