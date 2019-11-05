@@ -4,7 +4,11 @@
 			<th><a ng-click="reverse=!reverse;predicate='name'">Name</a></th>
 			<th><a ng-click="reverse=!reverse;predicate='talk'">Talk</a></th>
 			<th><a ng-click="reverse=!reverse;predicate='date'">Date</a></th>
-      <th>Links</a></th>
+      		<th>Links</a></th>
+		</tr>
+		<tr>
+			<th><input type="text" ng-model="search.name" class="form-control" placeholder="Name"></th>
+			<th><input type="text" ng-model="search.talk" class="form-control" placeholder="Talk"></th>
 		</tr>
 	</thead>
 	<tr ng-repeat="row in events | filter:search | orderBy:predicate:reverse">
