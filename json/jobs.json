@@ -1,5 +1,23 @@
 [
 	{
+		"title": "Tech Team Lead",
+		"description":"",
+		"company": {
+			"name": "Creditas",
+			"url":"https://www.creditas.com.br"
+		},
+		"period": {
+			"from" : {"year" : 2019, "month": "October", "day":21}
+		},
+		"projects" : [
+			{
+				"title": "Documents",
+				"description":"validations",
+				"keywords" : ["kotlin","microservices","aws"]
+			}
+		]
+	},
+	{
 		"title" : "Software Engineer / Tech Lead",
 		"description": "Logistics systems",
 		"company" : {
@@ -7,8 +25,16 @@
 			"url" : "https://www.ifood.com.br"
 		},
 		"period" : {
-			"from" : {"year" : 2019, "month": "April", "day":1}
-		}
+			"from" : {"year" : 2019, "month": "April", "day":1},
+			"to" : {"year" : 2019, "month": "October", "day":17}
+		},
+		"projects" : [
+			{
+				"title": "Operational Excellence",
+				"description":"Ops Automation",
+				"keywords" : ["java","spring","postgres","aws"]
+			}
+		]
 	},
 	{
 		"title" : "Senior Software Engineer",
