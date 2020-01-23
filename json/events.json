@@ -226,5 +226,14 @@
       "track1": "https://thedevconf.com/tdc/2019/portoalegre/trilha-microservices",
       "track2": "https://thedevconf.com/tdc/2019/portoalegre/trilha-microservices-2"
     } 
+  },
+  {
+    "name" : "Meetup Microservices",
+    "talk" : "Microservices: o que aprendi em ~3 anos",
+    "date" : "2018-03-28",
+    "links": {
+      "ppt" : "https://docs.google.com/presentation/d/1QttLdltchwD-YmyAutkfdu2koROKgkxWl7ZVOuJF3MI/edit?usp=sharing",
+      "event":"https://www.meetup.com/pt-BR/Microservices-Porto-Alegre/events/248695251/" 
+    } 
   }
 ]
