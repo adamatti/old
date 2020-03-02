@@ -235,5 +235,15 @@
       "ppt" : "https://docs.google.com/presentation/d/1QttLdltchwD-YmyAutkfdu2koROKgkxWl7ZVOuJF3MI/edit?usp=sharing",
       "event":"https://www.meetup.com/pt-BR/Microservices-Porto-Alegre/events/248695251/" 
     } 
+  },
+  {
+    "name" : "GUTS-RS",
+    "talk" : "CI e CD",
+    "date" : "2017-09-13",
+    "links" : {
+      "blog": "http://guts-rs.blogspot.com.br/2017/09/saiba-o-que-rolou-no-evento-de.html",
+      "photo": "https://www.facebook.com/pg/gudetestes/photos/?tab=album&album_id=1518444338215040",
+      "slides": "https://www.slideshare.net/GUTS-RS/gutsrs-evento-setembro-2017-continuous-integration-delivery-e-deployment-o-que-so-e-o-que-isso-tem-a-ver-com-devops"
+    }
   }
 ]
