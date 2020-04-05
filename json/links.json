@@ -134,5 +134,11 @@
         "description": "TDC profile",
         "title": "TDC",
         "url": "http://www.thedevelopersconference.com.br/palestrante/MarceloAdamatti"
+    },
+    {
+        "category": "professional",
+        "description": "Another way to see github data",
+        "title": "Coders Rank",
+        "url": "https://profile.codersrank.io/user/adamatti"
     }
 ]
