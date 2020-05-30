@@ -245,5 +245,13 @@
       "photo": "https://www.facebook.com/pg/gudetestes/photos/?tab=album&album_id=1518444338215040",
       "slides": "https://www.slideshare.net/GUTS-RS/gutsrs-evento-setembro-2017-continuous-integration-delivery-e-deployment-o-que-so-e-o-que-isso-tem-a-ver-com-devops"
     }
+  },
+  {
+    "name" : "Webinar mais.dev",
+    "talk" : "Usando o feedback canvas",
+    "date" : "2020-05-29",
+    "links" : {
+      "youtube" : "https://www.youtube.com/watch?v=nckULqKkYzU"
+    }
   }
 ]
