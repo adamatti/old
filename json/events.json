@@ -253,5 +253,17 @@
     "links" : {
       "youtube" : "https://www.youtube.com/watch?v=nckULqKkYzU"
     }
+  },
+  {
+    "name" : "Webinar Fundatec",
+    "talk" : "As digiEvoluções em TI",
+    "date" : "2020-07-22",
+    "links" : {
+      "youtube" : "https://www.youtube.com/watch?v=GBUfoqDAQkQ",
+      "slides"  : "https://slides.com/adamatti/digi-evolucoes",
+      "ppt"     : "https://docs.google.com/presentation/d/1qrAGAeNTKlMsuKXoz6OowAw9tqgATKGW_1coYqOfmhM/edit?usp=sharing",
+      "event"   : "https://www.sympla.com.br/evento-online-gratuito-de-dev-a-gerente-as-digievolucoes-em-ti__898739",
+      "news"    : "https://www.segs.com.br/eventos/242316-epf-realiza-live-sobre-as-digievolucoes-em-ti"
+    }
   }
 ]
