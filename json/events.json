@@ -265,5 +265,16 @@
       "event"   : "https://www.sympla.com.br/evento-online-gratuito-de-dev-a-gerente-as-digievolucoes-em-ti__898739",
       "news"    : "https://www.segs.com.br/eventos/242316-epf-realiza-live-sobre-as-digievolucoes-em-ti"
     }
+  },
+  {
+    "name"  : "TDC SP - Agile",
+    "talk"  : "Painel: Performance em tempos de trabalho remoto: quais os desafios e como manter a performance em times ágeis?",
+    "date"  : "2020-08-25",
+    "links" : {
+      "event" : "https://thedevconf.com/tdc/2020/sampaonline/trilha-agile-e-agile-coaching",
+      "post1" : "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6704055720733757440/",
+      "post2" : "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6703697616401678336/",
+      "post3" : "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6702942854219669505/"
+    }
   }
 ]
