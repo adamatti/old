@@ -1,7 +1,7 @@
 [
 	{
-		"title": "Tech Team Lead",
-		"description":"",
+		"title": "Engineering Lead",
+		"description":"As Engineering lead, I am responsible for technical, process (agility), product/business (together with product manager) and people (e.g. 1:1s, performance review)<br/>Currently responsible for 3 teams: Risk, Trust and Pricing",
 		"company": {
 			"name": "Creditas",
 			"url":"https://www.creditas.com.br"
@@ -13,6 +13,26 @@
 			{
 				"title": "Documents",
 				"description":"validations",
+				"keywords" : ["kotlin","microservices","aws"]
+			},
+			{
+				"title": "Limits",
+				"description":"Cash limit control for new products",
+				"keywords" : ["kotlin","microservices","aws","cqrs"]
+			},
+			{
+				"title": "Risk",
+				"description":"Credit risk and rule engine",
+				"keywords" : ["kotlin","microservices","aws","bpm","camunda"]
+			},
+			{
+				"title": "Trust",
+				"description":"Fraud prevention, integration with partners",
+				"keywords" : ["kotlin","microservices","aws"]
+			},
+			{
+				"title": "Pricing",
+				"description":"Price and tax configurations, calculations and simulations",
 				"keywords" : ["kotlin","microservices","aws"]
 			}
 		]
@@ -46,7 +66,14 @@
 		"period" : {
 			"from" : {"year" : 2017, "month": "April", "day":10},
 			"to" : {"year" : 2019, "month": "March", "day":29}
-		}
+		},
+		"projects" : [
+			{
+				"title": "Chatbots",
+				"description":"product for end user",
+				"keywords" : ["java","spring","postgres","aws", "node", "mongo", "big data"]
+			}
+		]
 	},
 	{
 		"title": "Software Development Sr Advisor (DFS)",
@@ -71,7 +98,7 @@
 		"title" : "Technical Lead",
 		"description" : "Tech Lead in a global app. Using Node/Groovy/Docker",
 		"company" : {
-			"name": "ilegra",
+			"name": "ilegra (AGCO)",
 			"url" : "http://ilegra.com"
 		},
 		"period" : {

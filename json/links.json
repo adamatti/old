@@ -140,5 +140,12 @@
         "description": "Another way to see github data",
         "title": "Coders Rank",
         "url": "https://profile.codersrank.io/user/adamatti"
+    },
+    {
+        "category": "professional",
+        "description": "Youtube tech channel",
+        "title": "youtube",
+        "url": "https://youtube.com/adamatti",
+        "showForPrint" : true
     }
 ]

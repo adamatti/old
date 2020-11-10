@@ -1,7 +1,7 @@
 [
     {
       "name" : "Languages",
-      "items" : ["Java", "Go", "Groovy","Node.js (Javascript)"]
+      "items" : ["Java", "Groovy","Kotlin", "Node.js (Javascript)"]
     },
     {
       "name" : "Libs and Frameworks",
