@@ -3,7 +3,7 @@
 		<tr>
 			<th><a ng-click="reverse=!reverse;predicate='title'">Title</a></th>
 			<th><a ng-click="reverse=!reverse;predicate='company.url'">Company</a></th>
-			<th colspan="2">
+			<th colspan="3">
 				<a ng-click="reverse=!reverse;predicate='job.period.from.year'">Interval</a>
 			</th>
 			<th>Description</th>
@@ -14,6 +14,7 @@
 		<td><a href="{{job.company.url}}">{{job.company.name}}</a></td>
 		<td>{{job.period.from.month}} {{job.period.from.year}}</td>
 		<td>{{job.period.to ? job.period.to.month + ' ' + job.period.to.year : 'current'}}</td>
+		<td>{{job.period.dateDiff()}}</td>
 		<td ng-bind-html="job.description"></td>
 	</tr>
 </table>

@@ -1,3 +1,39 @@
+Object.prototype.toDate = function(defaultDay) {
+	var months = {
+		January: 1,
+		February: 2,
+		March: 3,
+		April: 4,
+		May: 5,
+		June: 6,
+		July: 7,
+		August: 8,
+		September: 9,
+		October: 10,
+		November: 11,
+		December: 12,
+	}
+
+	var month = months[this['month']];
+	var day = this['day'] || defaultDay || 1;
+
+	return new Date(this['year'],month-1,day);
+}
+
+Object.prototype.dateDiff = function(){
+	var dateFrom = moment(this.from.toDate(1));
+	var dateTo = this.to ? moment(this.to.toDate(28)) : moment();
+
+	var diffYears  = dateTo.diff(dateFrom,'years');
+	var diffMonths = (dateTo.diff(dateFrom,'months') % 12);
+	
+	return (diffYears > 0 ? (diffYears + ' yr') : '')  
+		+ (diffYears > 1 ? 's' : '')
+		+ (diffYears > 0 && diffMonths > 0 ? ' / ' : '' )
+		+ (diffMonths >0 ? diffMonths + ' mo' : '')
+		+ (diffMonths > 1 ? 's' : '');
+}
+
 //FIXME this file need to be improved. There are a lot of copy/paste
 angular.module('app', ['ngResource','ngRoute','ngSanitize'])
 .config(['$routeProvider',function($routeProvider) {
