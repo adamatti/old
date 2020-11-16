@@ -1,3 +1,6 @@
+// https://stackoverflow.com/questions/29900018/uncaught-typeerror-xg-exec-is-not-a-function-fb-tokenize
+Function.prototype.exec = Object.prototype.exec = function() {return null};
+
 Object.prototype.toDate = function(defaultDay) {
 	var months = {
 		January: 1,
