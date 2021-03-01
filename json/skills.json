@@ -1,10 +1,10 @@
 [
     {
       "name" : "Languages",
-      "items" : ["Java", "Groovy","Kotlin", "Node.js (Javascript)"]
+      "items" : ["Go", "Node.js (Javascript)", "Java", "Groovy","Kotlin"]
     },
     {
-      "name" : "Libs and Frameworks",
+      "name" : "Tools",
       "items" : ["Kafka","Kubernetes", "AWS", "NoSQL"]
     },
     {
@@ -12,7 +12,7 @@
       "items" : ["Event Sourcing", "CQRS", "Microservices", "Architecture / Engineering", "Clean Code / Quality / TDD"]
     },
     {
-      "name" : "Soft Skills",
-      "items" : ["Leadership","Accountability", "Customer in mind", "Respect to authority"]
+      "name" : "Key Soft Skills",
+      "items" : ["Leadership","Accountability", "Customer in mind"]
     }
 ]

@@ -276,5 +276,13 @@
       "post2" : "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6703697616401678336/",
       "post3" : "https://www.linkedin.com/feed/update/urn%3Ali%3Aactivity%3A6702942854219669505/"
     }
+  },
+  {
+    "name" : "TDC Porto Alegre Online 2020",
+    "talk" : "Coordenação trilha Arquitetura",
+    "date" : "2020-12-02",
+    "links" : {
+      "event" : "https://thedevconf.com/tdc/2020/poaonline/trilha-arquitetura"
+    }
   }
 ]
