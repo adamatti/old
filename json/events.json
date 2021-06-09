@@ -284,5 +284,13 @@
     "links" : {
       "event" : "https://thedevconf.com/tdc/2020/poaonline/trilha-arquitetura"
     }
+  },
+  {
+    "name" : "TDC Connections 2021",
+    "talk" : "Coordenação trilha API",
+    "date" : "2021-06-08",
+    "links" : {
+      "event" : "https://thedevconf.com/tdc/2021/connections/trilha-api"
+    }
   }
 ]
