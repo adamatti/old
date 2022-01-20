@@ -9,7 +9,7 @@
 
 <h4>Experience</h4>
 <ul>
-  <li ng-repeat="job in jobs" ng-if="job.period.from.year >= 2008">
+  <li ng-repeat="job in jobs" ng-if="job.period.from.year >= 2008 && job.show !== false">
     <b><a href="{{job.company.url}}">{{job.company.name}}</a></b> - {{job.title}}</b> - 
       {{job.period.from.month}} {{job.period.from.year}} - {{job.period.to ? job.period.to.month + ' ' + job.period.to.year : 'current'}} 
       ({{ job.period.dateDiff() }})

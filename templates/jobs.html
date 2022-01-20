@@ -9,7 +9,7 @@
 			<th>Description</th>
 		</tr>
 	</thead>
-	<tr ng-repeat="job in jobs | filter:search | orderBy:predicate:reverse">
+	<tr ng-repeat="job in jobs | filter:search | orderBy:predicate:reverse" ng-if="job.show !== false">
 		<td>{{job.title}}</td>
 		<td><a href="{{job.company.url}}">{{job.company.name}}</a></td>
 		<td>{{job.period.from.month}} {{job.period.from.year}}</td>
