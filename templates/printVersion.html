@@ -37,7 +37,7 @@
 <h4>Education</h4>
 <ul>
 <li ng-repeat="row in educations | filter: {showForPrint: true}">
-  <b>{{row.school}}</b> - {{row.title}} - {{row.interval.start}} to {{row.interval.end}}<br/>
+  <b>{{row.school}}</b> - {{row.title}}<br/>
   <div ng-bind-html="row.description"></div>
 </li>
 </ul>
