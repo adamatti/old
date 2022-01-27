@@ -1,18 +1,39 @@
 [
-    {
-      "name" : "Languages",
-      "items" : ["Go", "Node.js (Javascript)", "Java", "Groovy","Kotlin"]
-    },
-    {
-      "name" : "Tools",
-      "items" : ["Kafka","Kubernetes", "AWS", "NoSQL"]
-    },
-    {
-      "name" : "Interests, Talking about",
-      "items" : ["Event Sourcing", "CQRS", "Microservices", "Architecture / Engineering", "Clean Code / Quality / TDD"]
-    },
-    {
-      "name" : "Key Soft Skills",
-      "items" : ["Leadership","Accountability", "Customer in mind"]
-    }
+  {
+    "name": "Languages",
+    "items": [
+      "Go",
+      "Node.js (Javascript, Typescript)",
+      "Java",
+      "Groovy",
+      "Kotlin"
+    ]
+  },
+  {
+    "name": "Tools",
+    "items": [
+      "Kafka",
+      "Kubernetes",
+      "AWS",
+      "NoSQL"
+    ]
+  },
+  {
+    "name": "Interests, Talking about",
+    "items": [
+      "Event Sourcing",
+      "CQRS",
+      "Microservices",
+      "Architecture / Engineering",
+      "Clean Code / Quality / TDD"
+    ]
+  },
+  {
+    "name": "Key Soft Skills",
+    "items": [
+      "Leadership",
+      "Accountability",
+      "Customer in mind"
+    ]
+  }
 ]
