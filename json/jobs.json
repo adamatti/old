@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Software Engineer",
-		"description": "Go/Node engineer at platform squad",
+		"description": "Go/Node engineer",
 		"company": {
 			"name": "X-Team (Fox)",
 			"url": "https://x-team.com/"
@@ -12,7 +12,19 @@
 				"month": "January",
 				"day": 4
 			}
-		}
+		},
+		"projects": [
+			{
+				"title": "Platform",
+				"description": "Asset (e.g. video, thumbnails, closed captions, etc) ingestion and indexing",
+				"keywords": [
+					"go",
+					"nodejs",
+					"aws",
+					"elasticsearch"
+				]
+			}
+		]
 	},
 	{
 		"title": "Engineering Lead",
