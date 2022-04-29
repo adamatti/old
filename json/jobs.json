@@ -1,6 +1,21 @@
 [
 	{
 		"title": "Software Engineer",
+		"description": "Node engineer",
+		"company": {
+			"name": "Demand.io",
+			"url": "https://demand.io"
+		},
+		"period": {
+			"from": {
+				"year": 2022,
+				"month": "March",
+				"day": 28
+			}
+		}
+	},
+	{
+		"title": "Software Engineer",
 		"description": "Go/Node engineer",
 		"company": {
 			"name": "X-Team (Fox)",
@@ -11,6 +26,11 @@
 				"year": 2021,
 				"month": "January",
 				"day": 4
+			},
+			"to": {
+				"year": 2022,
+				"month": "March",
+				"day": 25
 			}
 		},
 		"projects": [
