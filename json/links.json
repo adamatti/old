@@ -4,21 +4,21 @@
         "description": "",
         "title": "linkedin",
         "url": "http://www.linkedin.com/in/adamatti",
-        "showForPrint" : true
+        "showForPrint": true
     },
     {
         "category": "professional and personal",
         "description": "",
         "title": "twitter",
         "url": "https://www.twitter.com/adamatti",
-        "showForPrint" : true
+        "showForPrint": true
     },
     {
         "category": "professional",
         "description": "",
         "title": "github",
         "url": "https://github.com/adamatti",
-        "showForPrint" : true
+        "showForPrint": true
     },
     {
         "category": "personal",
@@ -49,7 +49,7 @@
         "description": "",
         "title": "facebook",
         "url": "https://www.facebook.com/marcelo.adamatti",
-        "showForPrint" : false
+        "showForPrint": false
     },
     {
         "category": "professional",
@@ -88,43 +88,43 @@
         "url": "http://adamatti.blogspot.com/"
     },
     {
-        "category" : "professional",
-        "description" : "pieces of code and small notes",
-        "title" : "gist",
-        "url" : "https://gist.github.com/adamatti"
+        "category": "professional",
+        "description": "pieces of code and small notes",
+        "title": "gist",
+        "url": "https://gist.github.com/adamatti"
     },
     {
-        "category" : "professional and personal",
-        "description" : "Resume in portuguese, single page",
-        "title" : "googlepage",
-        "url" : "http://adamatti.googlepages.com/"
+        "category": "professional and personal",
+        "description": "Resume in portuguese, single page",
+        "title": "googlepage",
+        "url": "http://adamatti.googlepages.com/"
     },
     {
-        "category" : "professional and personal",
-        "description" : "Personality test",
-        "title" : "TalenToday",
-        "url" : "https://www.talentoday.com/users/marcelo-adamatti/personality"
+        "category": "professional and personal",
+        "description": "Personality test",
+        "title": "TalenToday",
+        "url": "https://www.talentoday.com/users/marcelo-adamatti/personality"
     },
     {
-        "category" : "professional",
-        "description" : "Decks used on events, meetups, talks",
-        "title" : "Slides",
-        "url" : "http://slides.com/adamatti"
+        "category": "professional",
+        "description": "Decks used on events, meetups, talks",
+        "title": "Slides",
+        "url": "http://slides.com/adamatti"
     },
     {
         "category": "professional",
         "description": "StackOverflow CV",
-        "title" : "StackOverflow",
-        "url" : "http://stackoverflow.com/story/adamatti"
+        "title": "StackOverflow",
+        "url": "http://stackoverflow.com/story/adamatti"
     },
     {
         "category": "professional",
         "description": "A nice way to see Github projects",
         "title": "GitShowcase",
-        "url" : "http://www.gitshowcase.com/adamatti"    
+        "url": "http://www.gitshowcase.com/adamatti"
     },
     {
-        "category":"professional",
+        "category": "professional",
         "description": "Another way to see github data",
         "title": "Sourcerer",
         "url": "https://sourcerer.io/adamatti"
@@ -146,6 +146,13 @@
         "description": "Youtube tech channel",
         "title": "youtube",
         "url": "https://youtube.com/adamatti",
-        "showForPrint" : true
+        "showForPrint": true
+    },
+    {
+        "category": "professional",
+        "description": "Git statistics",
+        "title": "gitsight",
+        "url": "https://profile.gitsight.com/?user=adamatti@gmail.com",
+        "showForPrint": false
     }
 ]
