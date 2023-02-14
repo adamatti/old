@@ -3,6 +3,39 @@
 		"title": "Software Engineer",
 		"description": "Node engineer",
 		"company": {
+			"name": "Clevertech",
+			"url": "https://clevertech.biz"
+		},
+		"period": {
+			"from": {
+				"year": 2022,
+				"month": "October",
+				"day": 31
+			},
+			"to": {
+				"year": 2023,
+				"month": "February",
+				"day": 13
+			}
+		},
+		"projects": [
+			{
+				"title": "Ingestion / Export systems",
+				"description": "Create pipelines to collect data from clients, do machine learning process and return it to clients, supporting multiple formats",
+				"keywords": [
+					"nestjs",
+					"typescript",
+					"mongo",
+					"terraform",
+					"kubernetes"
+				]
+			}
+		]
+	},
+	{
+		"title": "Software Engineer",
+		"description": "Node engineer",
+		"company": {
 			"name": "Demand.io",
 			"url": "https://demand.io"
 		},
@@ -11,8 +44,35 @@
 				"year": 2022,
 				"month": "March",
 				"day": 28
+			},
+			"to": {
+				"year": 2022,
+				"month": "October",
+				"day": 25
 			}
-		}
+		},
+		"projects": [
+			{
+				"title": "AWS to GCP migration",
+				"keywords": [
+					"aws",
+					"gcp",
+					"kubernetes",
+					"helm"
+				]
+			},
+			{
+				"title": "Gamification",
+				"description": "Create backend infrastructure to track actions and give point based on events",
+				"keywords": [
+					"nestjs",
+					"typescript",
+					"type-orm",
+					"mysql",
+					"microservices"
+				]
+			}
+		]
 	},
 	{
 		"title": "Software Engineer",
